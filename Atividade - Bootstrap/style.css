@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(46, 44, 42);
+}
+
+.cabecalho {
+    border: 2px solid white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.cabecalho ul li a {
+    color: white;
+}
+
+.cabecalho ul li a:hover {
+    color: rgb(44, 132, 214);
+}
+
+
+
+/*container
+*/
+.container{
+    margin-top: 20px;
+}
+
+.carousel-item img {
+    max-height: 70%;
+    max-width: 70%;
+   border-radius: 20px;
+}
+
+
+.secao1 {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.cardapio{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.arroz{
+    display: flex;
+    justify-content: center;
+}
+
+.secao2{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+/*footer*/
+
+.footer{
+    color: white;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    width: 50%;
+    margin-left: 30%;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    background-color: rgb(22, 15, 15);
+}
